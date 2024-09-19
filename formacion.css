@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5d5d5;
+    color: #4c4545;
+    background: #EAF2FD;
+    margin-top: 100px;
+}
+
+nav ul{
+    justify-content:flex-end;
+    margin-top: -42px;
+
+}
+
+nav a {
+    color: #645d5d;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+.contenido__ppal {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen con el inicio del texto */
+    justify-content: flex-start; /* Mantiene el texto a la izquierda */
+    gap: 20px; /* Añade espacio entre el texto y la imagen */
+    margin-top: 10%;
+}
+
+
+
+
+.navegador {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;   
+    margin-top: -106px; 
+}
+
+
+.formacion__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.formacion__img{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 38px;
+}
+
+.formacion__img--text{
+    flex-direction: column;
+}
+
+.text{
+    margin-top: -14px;
+}

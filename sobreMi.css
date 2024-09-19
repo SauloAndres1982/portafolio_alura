@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5d5d5;
+    color: #4c4545;
+    background: #EAF2FD;
+}
+
+header{
+    background-color: #EAF2FD
+}
+
+.sobre_mi h1{
+    text-align:left;
+    font-size: 46px;
+    margin: 70px;
+}
+
+.sobre_mi p{
+    font-size: 19px;
+    margin: 70px;
+}

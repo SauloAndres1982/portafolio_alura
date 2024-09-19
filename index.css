@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5d5d5;
+    color: #4c4545;
+}
+
+header {
+    background-color: #d5d5d5;
+    color: #444444;
+}
+
+.navegador {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;    
+}
+
+.navegador a {
+    position: relative; /* Asegura que el enlace esté en el flujo de documentos */
+    z-index: 10; /* Asegura que el enlace esté encima de otros elementos */
+}
+
+p {
+    
+    width: 70%; /* Opción para que el texto ocupe todo el ancho */
+    text-align:left; /* Centra el texto dentro del nav */
+}
+
+nav p {
+    padding: 10px;
+    position: relative;
+}
+
+nav ul{
+    justify-content:flex-end;
+    margin-top: -42px;
+
+}
+
+nav a {
+    color: #645d5d;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+.contenido__ppal {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen con el inicio del texto */
+    justify-content: flex-start; /* Mantiene el texto a la izquierda */
+    gap: 20px; /* Añade espacio entre el texto y la imagen */
+    margin-top: 10%;
+}
+
+.contenido__texto {
+    max-width: 60%; /* Controla el ancho del bloque de texto */
+}
+
+.contenido__ppal h1, .contenido__ppal h3 {
+    margin: 0; /* Elimina márgenes extra */
+}
+
+.contenido__ppal h1 {
+    margin-bottom: 12px; /* Añade espacio entre el título y subtítulo */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-color: #d5d5d5;
+    color: #4c4545
+    
+}
+
+.contenido__ppal p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.contenido__ppal--img {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: auto; /* Alinea la imagen a la derecha */
+}
+
+
+.footer__links{
+    list-style-type: none;
+    display: flex;
+    gap: 66px; 
+}
+
+footer a{
+    color: #645d5d;
+    font-size: 16px;
+    text-decoration: none
+}
